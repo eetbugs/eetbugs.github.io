@@ -2476,12 +2476,12 @@ input, select, textarea {
 			border-color: #49bf9d;
 			color: #49bf9d !important;
 		}
-
+		
 		input[type="submit"].icon,
 		input[type="reset"].icon,
 		input[type="button"].icon,
 		.button.icon {
-			padding-left: 1.35em;
+			padding-left: 0.35em; /* was 1.35em */
 		}
 
 			input[type="submit"].icon:before,
